@@ -1,0 +1,19 @@
+@mixin hover {
+	&:hover {
+		@content;
+	}	
+}
+
+
+// usage @include icon(tv, after) {your css properties}
+// in a mixin call add only icon name WITHOUT ico prefix and add before/after for pseudo element
+@mixin icon($name: download, $pseudo: before) {
+	&::#{$pseudo} {
+		@include font-styles;
+		content: font-char('ico-#{$name}');
+		@content;
+	}
+}
+
+
+

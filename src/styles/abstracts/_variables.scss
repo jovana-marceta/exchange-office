@@ -1,0 +1,20 @@
+// Fonts
+$font-primary: 'Open Sans', sans-serif;
+
+// Colors
+$black: #000;
+$white: #fff;
+$orange: #fd961a;
+
+$dark-gray-100: #1d1d1d;
+$dark-gray-200: #111;
+
+$light-gray-100: #aaa;
+
+$site-colors: (
+	'black': $black,
+	'white': $white,
+	'dark-gray-100': $dark-gray-100,
+	'dark-gray-200': $dark-gray-200
+) !default;
+

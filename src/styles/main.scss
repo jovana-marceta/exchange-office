@@ -1,6 +1,12 @@
+// @import 'bootstrap/scss/bootstrap';
 
-@import 'variables';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/helpers';
 
-@import 'bootstrap/scss/bootstrap';
+@import 'base/layout';
+@import 'base/normalize';
+@import 'base/fonts';
 
-@import 'app';
+@import 'layout/header';
+@import 'layout/navbar';
