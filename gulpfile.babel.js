@@ -102,7 +102,7 @@ requireDir('./tasks/');
 // -------------------------------------
 
 gulp.task('default',
-  gulp.series(gulp.parallel('styles', 'scripts', 'images', 'fonts', 'views', 'favicons', 'sprites', 'vendors',), 'server'));
+  gulp.series(gulp.parallel('styles', 'scripts', 'images', 'fonts', 'views', 'favicons', 'sprites', 'vendors'), 'server'));
 
 
 // -------------------------------------
@@ -111,6 +111,6 @@ gulp.task('default',
 
 gulp.task(
   'build',
-  gulp.series('clean', gulp.parallel('styles', 'scripts', 'images', 'fonts', 'views', 'favicons', 'sprites', 'vendors'), 'say:build',));
+  gulp.series('clean', gulp.parallel('styles', 'scripts', 'images', 'fonts', 'views', 'favicons', 'sprites', 'vendors'), 'say:build'));
 
 export { paths, config };

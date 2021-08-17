@@ -1,7 +1,9 @@
-// Fonts
-$font-primary: 'Open Sans', sans-serif;
+//------- Fonts
+$font-primary:  'Lato', sans-serif;
+$font-secondary: 'Open Sans', sans-serif;
 
-// Colors
+
+//------- Colors
 $black: #000;
 $white: #fff;
 $orange: #fd961a;
@@ -9,7 +11,7 @@ $orange: #fd961a;
 $dark-gray-100: #1d1d1d;
 $dark-gray-200: #111;
 
-$light-gray-100: #aaa;
+$light-gray-100: #999;
 
 $site-colors: (
 	'black': $black,
@@ -18,3 +20,28 @@ $site-colors: (
 	'dark-gray-200': $dark-gray-200
 ) !default;
 
+//-------Bootstrap Grid Breakpoints
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$enable-grid-classes: true !default;
+
+$grid-breakpoints: (
+	// Extra small screen / phone
+	xs: 0,
+	// Small screen / phone
+	sm: 576px,
+	// Medium screen / tablet
+	md: 768px,
+	// Large screen / desktop
+	lg: 992px,
+	// Extra large screen / wide desktop
+	xl: 1200px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1170px
+);

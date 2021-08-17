@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4 , .h5 , .h6 {
+	color: $white;
+	text-transform: uppercase;
+	font-family: $font-primary;
+	font-weight: 900;
+}
+
+h2, .h2 {
+	margin-bottom: 15px;
+	font-size: 45px;
+	line-height: 45px;
+}
+
+.text-important {
+	color: $orange;
+}
+
+.text-description {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	position: relative;
+	line-height: 28px;
+}

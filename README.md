@@ -1,6 +1,3 @@
-# Exchange Office
-Multipage website for Excange office.
-
 ## Front-end Boilerplate
 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
@@ -10,6 +7,8 @@ Multipage website for Excange office.
 **gulp-webpack-handlebars** is a flexible template for web development. It includes many tools for creating responsive, high-performance and lightweight pages.
 
 :rocket: Gulp 4 + Webpack 4 + Handlebars + Babel + BrowserSync :fire:
+
+
 
 ## Documentation
 
