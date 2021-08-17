@@ -3,20 +3,34 @@ h1, h2, h3, h4, h5, h6,
 	color: $white;
 	text-transform: uppercase;
 	font-family: $font-primary;
-	font-weight: 900;
 }
 
 h2, .h2 {
 	margin-bottom: 15px;
 	font-size: 45px;
 	line-height: 45px;
+	font-weight: 900;
+}
+
+h4, .h4 {
+	font-size: 18px;
+	line-height: 28px;
+	margin: 20px 0 10px;
+}
+
+a {
+	color: $white;
+	@include hover {
+		color: $orange;
+		transition: all .3s;
+	}
 }
 
 .text-important {
 	color: $orange;
 }
 
-.text-description {
+.text-subtitle{
 	text-transform: uppercase;
 	margin-bottom: 25px;
 	position: relative;

@@ -1,3 +1,9 @@
 .blog {
 	padding: 60px 0;
 }
+
+.blog-card {
+	&__img {
+		width: 100%;
+	}
+}
