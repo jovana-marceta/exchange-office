@@ -38,5 +38,21 @@ a {
 	position: relative;
 	line-height: 28px;
 	position: relative;
+}
 
+.heading-block  {
+
+	&::after {
+		content: "";
+		position: absolute;
+		height: 2px;
+		width: 60px;
+		background-color: $orange;
+
+		@include absolute-center();
+
+		@include for-small-screen {
+			display: none;
+		}
+	}
 }

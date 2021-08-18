@@ -1,4 +1,16 @@
 {
 	"heading": "Exchange <span class='text-important'>news</span>",
-	"description": "Discover latest news about Exchange on our blog"
+	"description": "Discover latest news about Exchange on our blog",
+	"card-title1": "How Cryptocurrency Begun and Its Impact To Financial Transactions",
+	"card-text1": "incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud...",
+	"img1": "assets/img/content/blog-post-1.jpg",
+	"alt1": "some random text",
+	"card-title2": "Cryptocurrency - Who Are Involved With It? Words about members",
+	"card-text2": "incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud...",
+	"img2": "assets/img/content/blog-post-2.jpg",
+	"alt2": "some random text",
+	"card-title3": "Cryptocurrency - Who Are Involved With It? Words about members",
+	"card-text3": "incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud...",
+	"img3": "assets/img/content/blog-post-3.jpg",
+	"alt3": "some random text"
 }
