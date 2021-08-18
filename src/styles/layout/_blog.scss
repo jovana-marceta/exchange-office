@@ -3,7 +3,31 @@
 }
 
 .blog-card {
+
+	@include for-large-screen {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
 	&__img {
 		width: 100%;
+		min-height: 200px;
 	}
+
+	& a .blog-card__img {
+		opacity: .9;
+		transition: .1s;
+
+		@include hover {
+			opacity: 1;
+		}
+	}
+
+	.btn {
+		width: 100%;
+	}
+
+	
+
+	
 }

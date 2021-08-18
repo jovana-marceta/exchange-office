@@ -7,6 +7,7 @@ $font-secondary: 'Open Sans', sans-serif;
 $black: #000;
 $white: #fff;
 $orange: #fd961a;
+$orange-dark: #e38717;
 
 $dark-gray-100: #1d1d1d;
 $dark-gray-200: #111;
@@ -19,6 +20,14 @@ $site-colors: (
 	'dark-gray-100': $dark-gray-100,
 	'dark-gray-200': $dark-gray-200
 ) !default;
+
+
+//------- Screen Resolutions
+
+$sm: 540px;
+$md: 720px;
+$lg: 960px;
+$xl: 1170px;
 
 //-------Bootstrap Grid Breakpoints
 

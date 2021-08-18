@@ -1,0 +1,33 @@
+a,
+button {
+	appearance: none;
+	outline: none;
+}
+
+button,
+input[type='button'],
+input[type='submit'] {
+	background: none;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+}
+
+.btn {
+	font-family: $font-secondary;
+	font-size: 14px;
+	border-radius: 0;
+	text-transform: uppercase;
+
+	&--primary {
+		color: $white;
+		background-color: $orange;
+	
+		&:hover {
+			background-color: $orange-dark;
+			color: $white;
+			transition: all .3s;
+		}
+	}
+}
