@@ -6,10 +6,17 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h2, .h2 {
-	margin-bottom: 15px;
 	font-size: 45px;
+	margin-bottom: 15px;
 	line-height: 45px;
 	font-weight: 900;
+}
+
+h3, .h3 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 900;
+	margin-bottom: 23px;
 }
 
 h4, .h4 {
