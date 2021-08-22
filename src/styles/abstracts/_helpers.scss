@@ -19,8 +19,19 @@
 	top: 0
 }
 
+.bg-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba($black, .7);
+}
+
 .set-relative {position: relative;}
 
 .mb-10 {margin-bottom: 10px;}
 .mb-20 {margin-bottom: 20px;}
 .mb-30 {margin-bottom: 30px;}
+
+.pr-10 {padding-right: 10px;}

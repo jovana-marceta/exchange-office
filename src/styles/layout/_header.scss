@@ -1,1 +1,8 @@
- 
+.header-top {
+	padding: 25px 0;
+
+	@include for-medium-screen {
+		text-align: center;
+	}
+
+}

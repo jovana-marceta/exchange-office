@@ -30,4 +30,14 @@ input[type='submit'] {
 			transition: all .3s;
 		}
 	}
+
+	&--secondary {
+		background-color: transparent;
+		border: 1px solid $orange;
+		color: $orange;
+
+		@include hover {
+			color: $white;
+		}
+	}
 }
