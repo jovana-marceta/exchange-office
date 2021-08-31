@@ -44,35 +44,70 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-12">
-						<a href="#">
-							<img src="assets/img/logo-dark.png" alt="" class="header__logo">
-						</a>
+						<div class="header-logo__box">
+							<a href="#">
+								<img src="assets/img/logo-dark.png" alt="">
+							</a>
+						</div>
 					</div>
 					<div class="col-lg-6 col-md-12">
-						<div class="d-flex justify-content-end">
-							<a href="#" class="btn btn--secondary">Sign in</a>
-							<a href="#" class="btn btn--primary">Register</a>
+						<div class="header-btn-group">
+							<a href="#" class="btn btn--secondary mr-20"><i class="fas fa-user mr-10"></i>Sign in</a>
+							<a href="#" class="btn btn--primary"><i class="fas fa-user-plus mr-10"></i>Register</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<nav style="background-color: red;">
+		<nav class="nav">
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<ul>
-							<li>
-								<a href="#">test</a>
+						<ul class="nav-list">
+							<li class="nav-list__item">
+								<a href="#">home</a>
 							</li>
-							<li>
-								<a href="#">test</a>
+							<li class="nav-list__item">
+								<a href="#">about us</a>
 							</li>
-							<li>
-								<a href="#">test</a>
+							<li class="nav-list__item">
+								<a href="#">services</a>
 							</li>
-							<li>
-								<a href="#">test</a>
+							<li class="nav-list__item">
+								<a href="#">pricing</a>
+							</li>
+							<li class="nav-list__item dropdown">
+								<a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Blog
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="#">Right sidebar</a>
+									<a class="dropdown-item" href="#">Left sidebar</a>
+									<a class="dropdown-item" href="#">Grid no sidebar</a>
+								</div>
+							</li>
+							<li class="nav-list__item dropdown">
+								<a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pages
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+									<a class="dropdown-item" href="#">Register page</a>
+									<a class="dropdown-item" href="#">Login page</a>
+									<a class="dropdown-item" href="#">Shopping chart</a>
+									<a class="dropdown-item" href="#">Shopping checkout</a>
+									<a class="dropdown-item" href="#">FAQ Page</a>
+									<a class="dropdown-item" href="#">404 Page</a>
+									<a class="dropdown-item" href="#">Server error Page</a>
+								</div>
+							</li>
+							<li class="nav-list__item">
+								<a href="#">Contact</a>
+							</li>
+							<li class="nav-list__item">
+								<a href="#"><i class="fas fa-shopping-cart icon"></i></a>
+							</li>
+							<li class="nav-list__item">
+								<a href="#"><i class="fas fa-search icon"></i></a>
 							</li>
 						</ul>
 					</div>

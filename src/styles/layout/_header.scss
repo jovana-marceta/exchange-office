@@ -1,8 +1,33 @@
 .header-top {
 	padding: 25px 0;
 
-	@include for-medium-screen {
+	.btn {
+		padding: 10px 15px;
+	}
+
+	a {
+		font-size: 13px;
+	}
+
+	@include for-medium-screen{
 		text-align: center;
 	}
 
 }
+
+.header-btn-group {
+	display: flex;
+	justify-content: flex-end;
+
+	@include for-medium-screen {
+		justify-content: center;
+	}
+}
+
+
+.header-logo__box {
+	@include for-medium-screen {
+		margin-bottom: 20px;
+	}
+}
+

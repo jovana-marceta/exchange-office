@@ -38,6 +38,7 @@ input[type='submit'] {
 
 		@include hover {
 			color: $white;
+			background-color: $orange;
 		}
 	}
 }
