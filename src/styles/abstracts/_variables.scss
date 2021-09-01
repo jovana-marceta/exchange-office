@@ -9,8 +9,11 @@ $white: #fff;
 $orange: #fd961a;
 $orange-dark: #e38717;
 
+
+
 $dark-gray-100: #1d1d1d;
 $dark-gray-200: #111;
+$dark-gray-300: #0c0c0c;
 
 $light-gray-100: #999;
 
@@ -19,7 +22,8 @@ $site-colors: (
 	'white': $white,
 	'dark-gray-100': $dark-gray-100,
 	'dark-gray-200': $dark-gray-200,
-	'light-gray-100': $light-gray-100
+	'light-gray-100': $light-gray-100,
+	'dark-gray-300': $dark-gray-300
 ) !default;
 
 
