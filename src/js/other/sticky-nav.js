@@ -1,10 +1,10 @@
 // Navbar stay fixed while scrolling
-window.onscroll = function() {myFunction()};
+window.onscroll = function() { fixedToTop()};
 
-var header = document.getElementById("myNav");
-var sticky = header.offsetTop;
+const header = document.getElementById("myNav");
+const sticky = header.offsetTop;
 
-function myFunction() {
+function fixedToTop() {
 	if (window.pageYOffset > sticky) {
 		header.classList.add("sticky");
 	} else {

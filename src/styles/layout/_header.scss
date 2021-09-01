@@ -3,6 +3,10 @@
 
 	.btn {
 		padding: 10px 15px;
+
+		@include for-medium-screen{
+			width: 100%;
+		}
 	}
 
 	a {
@@ -12,6 +16,8 @@
 	@include for-medium-screen{
 		text-align: center;
 	}
+
+	
 
 }
 
@@ -23,7 +29,6 @@
 		justify-content: center;
 	}
 }
-
 
 .header-logo__box {
 	@include for-medium-screen {

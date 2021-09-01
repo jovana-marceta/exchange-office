@@ -1,0 +1,12 @@
+.banner {
+	min-height: 600px;
+
+	&-box {
+		@include absolute-center;
+	}
+}
+
+.banner-bg {
+	filter: brightness(0.3);
+	@extend %bg-image;
+}

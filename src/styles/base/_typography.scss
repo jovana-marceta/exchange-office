@@ -5,6 +5,13 @@ h1, h2, h3, h4, h5, h6,
 	font-family: $font-primary;
 }
 
+h1, .h1 {
+	font-size: 68px;
+	line-height: 78px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+
 h2, .h2 {
 	font-size: 45px;
 	margin-bottom: 15px;
@@ -51,6 +58,7 @@ a {
 
 .text-important {
 	color: $orange;
+	font-weight: 900;
 }
 
 .text-subtitle{

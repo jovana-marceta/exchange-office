@@ -25,7 +25,7 @@
 		}
 	}
 
-	@include for-medium-screen {
+	@include for-small-screen {
 		display: inline-block;
 		width: 49%;
 	}
@@ -56,5 +56,9 @@
 		&:not(:last-child) {
 			margin-right: 5px;
 		}
+	}
+
+	@include for-small-screen {
+		text-align: center;
 	}
 }
