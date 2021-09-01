@@ -1,0 +1,60 @@
+.footer {
+	padding: 60px 0 20px;
+}
+
+.footer-top-box {
+	@include for-medium-screen {
+		margin-bottom: 30px;
+	}
+}
+
+.footer-list__link {
+
+	margin-bottom: 10px;
+
+	a {
+		color: $light-gray-100;
+		text-transform: uppercase;
+		font-family: $font-secondary;
+		font-size: 13px;
+		font-weight: 600;
+	
+	
+		@include hover {
+			color: $white;
+		}
+	}
+
+	@include for-medium-screen {
+		display: inline-block;
+		width: 49%;
+	}
+}
+
+
+.footer-top-facts {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #222;
+
+	div {
+		width: 50%;
+	}
+}
+
+
+.footer-bottom {
+
+	&__text {
+		border-top: 1px solid #222;
+		padding-top: 20px;
+	}
+}
+
+.footer-top-cards {
+	img {
+		width: 30px;
+		&:not(:last-child) {
+			margin-right: 5px;
+		}
+	}
+}

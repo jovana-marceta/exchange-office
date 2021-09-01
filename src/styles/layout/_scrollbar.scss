@@ -1,0 +1,14 @@
+// Scrollbar for chrome. For Mozilla is in the _layout.
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #333;
+
+}
+
+::-webkit-scrollbar-thumb {
+	background: $orange;
+}

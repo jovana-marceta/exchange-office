@@ -46,7 +46,7 @@
 					<div class="col-lg-6 col-md-12">
 						<div class="header-logo__box">
 							<a href="#">
-								<img src="assets/img/logo-dark.png" alt="">
+								<img src="{{header.logo}}" alt="">
 							</a>
 						</div>
 					</div>
@@ -81,9 +81,9 @@
 								Blog
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="#">Right sidebar</a>
-									<a class="dropdown-item" href="#">Left sidebar</a>
-									<a class="dropdown-item" href="#">Grid no sidebar</a>
+									{{#each header.dropdown1}}
+										<a class="dropdown-item" href="#">{{{this}}}</a>
+									{{/each}}
 								</div>
 							</li>
 							<li class="nav-list__item dropdown">
@@ -91,13 +91,9 @@
 								Pages
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<a class="dropdown-item" href="#">Register page</a>
-									<a class="dropdown-item" href="#">Login page</a>
-									<a class="dropdown-item" href="#">Shopping chart</a>
-									<a class="dropdown-item" href="#">Shopping checkout</a>
-									<a class="dropdown-item" href="#">FAQ Page</a>
-									<a class="dropdown-item" href="#">404 Page</a>
-									<a class="dropdown-item" href="#">Server error Page</a>
+									{{#each header.dropdown2}}
+										<a class="dropdown-item" href="#">{{{this}}}</a>
+									{{/each}}
 								</div>
 							</li>
 							<li class="nav-list__item">
@@ -116,3 +112,4 @@
 		</nav>
 
 	</header>
+

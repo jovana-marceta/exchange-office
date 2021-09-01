@@ -27,6 +27,20 @@ h4, .h4 {
 	text-transform: capitalize;
 }
 
+h5, .h5 {
+	font-size: 23px;
+	font-weight: 900;
+	color: $orange;
+}
+
+h6, .h6 {
+	color: $orange;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+
 a {
 	color: $white;
 	@include hover {
