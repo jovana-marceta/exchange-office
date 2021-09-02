@@ -1,6 +1,10 @@
 # Exchange office
 
-Multipage website for exchange office. 
+IN PROGRESS: Multipage website for exchange office
+
+Preview:
+![alt text](https://imgur.com/a/V6enk5k)
+
 
 ## Front-end Boilerplate
 
