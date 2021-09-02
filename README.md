@@ -1,8 +1,9 @@
 # Exchange office
 
-IN PROGRESS: Multipage website for exchange office
+<strong>IN PROGRESS:</strong> Multipage website for exchange office
 
-Preview:
+Current Preview:
+
 ![alt text](https://i.imgur.com/NoYA3Cd.png)
 
 
