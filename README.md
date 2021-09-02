@@ -3,7 +3,7 @@
 IN PROGRESS: Multipage website for exchange office
 
 Preview:
-![alt text](https://imgur.com/a/V6enk5k)
+![alt text](https://i.imgur.com/NoYA3Cd.png)
 
 
 ## Front-end Boilerplate
