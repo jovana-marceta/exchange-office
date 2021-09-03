@@ -1,3 +1,9 @@
 {
-	
+	"bg1": "assets/img/content/slider/bg1.jpg",
+	"heading1": "<span class=\"text-important\">Money</span> exchange you can <span class=\"text-important\">trust</span>",
+	"bg2": "assets/img/content/slider/bg4.jpg",
+	"heading2": "<span class=\"text-important\">Secure</span> and <span class=\"text-important\">easy way</span> to bitcoin",
+	"bg3": "assets/img/content/slider/bg3.jpg",
+	"heading3": "<span class=\"text-important\">Shop</span> exchange you can <span class=\"text-important\">trust</span>"
 }
+
