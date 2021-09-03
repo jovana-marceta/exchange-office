@@ -4,7 +4,7 @@
 
 Current Preview:
 
-![alt text](https://i.imgur.com/NoYA3Cd.png)
+![alt text](https://i.imgur.com/NVl93hu.jpg)
 
 
 ## Front-end Boilerplate
