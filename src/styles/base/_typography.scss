@@ -24,7 +24,7 @@ h2, .h2 {
 	font-weight: 900;
 
 	@include for-small-screen {
-		font-size: 25px;
+		font-size: 35px;
 		line-height: 25px;
 	}
 }
